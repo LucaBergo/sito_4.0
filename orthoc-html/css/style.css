@@ -62,9 +62,27 @@ html {
   text-transform: uppercase;
 }
 
-.heading_container p {
-  margin-top: 10px;
+#section2 > div > div.container > div.section {
+  height: 400px;
+}
+
+#section2 > div > div.container > div.section > div.p {
+  text-align: justify;
   margin-bottom: 0;
+}
+
+#section2 > div > div.container > div:nth-child(5) > h4 {
+  text-align: left;
+}
+
+#section2 > div > div.container > div.section > div.img {
+  float: left;
+  margin-right: 5px;
+}
+
+#section2 > div > div.container > div.section > div.img > img {
+  max-height: 400px;
+  height: auto;
 }
 
 .heading_container.heading_center {
